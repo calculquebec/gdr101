@@ -2,7 +2,7 @@
 
 
 
-Contenu de l'atelier ***Gestion des données sensibles \[GDR101]*** du 16 octobre 2025 donné par Caroline Baril.
+Contenu de l'atelier ***Gestion des données de recherche \[GDR101]*** du 25 novembre 2026 donné par Caroline Baril.
 
 
 
@@ -28,12 +28,12 @@ Les essentiels de la GDR
 Les données sensibles en recherche: un défi supplémentaire!
 
 * Définition
-* Concept : classification des données sensibles
 * Concept : identifiant direct ou indirect
 * Concept : dépersonnalisation vs anonymisation
+* Concept : classification des données sensibles
 * Le cycle de vie des données sensibles
 
 
 
-Exercices pratiques et démonstrations tout au long de l'atelier.
+Quiz et démonstrations tout au long de l'atelier.
 
