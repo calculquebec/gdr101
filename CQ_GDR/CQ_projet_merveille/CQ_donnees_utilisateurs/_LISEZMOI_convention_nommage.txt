@@ -1,4 +1,4 @@
-Ce fichier README_convention_nommage a été généré 2019-01-01 par Unepersonne Importante
+Ce fichier README_convention_nommage a été généré le 2019-01-01 par Unepersonne Importante
 
 CONVENTION DE NOMMAGE
 
@@ -9,13 +9,13 @@ ORDRE DES MÉTADONNÉES OU CHAMPS
 Pour le nommage des fichiers: {CQ}_{Action}_{Années}_{Auteur}_{Version}
 Action: Ce qui a été fait sur les données
 
-Utiliser le format ISO8601 (YYYYMMDD or YYYY-MM-DD) pour les date.
+Utiliser le format ISO8601 (YYYYMMDD ou YYYY-MM-DD) pour les dates.
 
-Le _ sera utilisé pour séparer les champs et le - sera utilisé à l'intérieur d'un champs.
+Le _ sera utilisé pour séparer les champs et le - sera utilisé à l'intérieur d'un champ.
 
 Les caractères spéciaux ne sont pas permis.
 
-ABBRÉVIATIONS
+ABRÉVIATIONS
 
 CQ: Calcul Québec
 CB: Caroline Baril
@@ -26,5 +26,6 @@ ST: Suzanne Talon
 VERSIONNAGE
 
 V01 à V10
+FINAL : version finale (dossier CQ_Donnees-Finales_AAAA)
 
  
