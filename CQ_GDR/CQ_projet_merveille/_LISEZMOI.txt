@@ -8,7 +8,6 @@ Auteure
 Nom: Unepersonne Importante
 ORCID:0000-0002-2226-0000
 Institution: Calcul Québec
-Address:
 Email: unepersonne.importante@calculquebec.ca
 
 Date de la collecte de données:  2019-01-01 - 2023-01-01
@@ -20,58 +19,45 @@ Source de financement: Fond Canadien de l'Innovation, Fond de Recherche du Québ
 
 PARTAGE ET ACCÈS À L'INFORMATION
 
-Licenses/restrictions placées sur les données:
+Licenses/restrictions placées sur les données: Aucune
 
 Liens aux publications qui citent ou utilisent ces données: Aucun
 
 Liens aux à d'autres endroits publics où je peux trouver les données: Aucun
 
 Liens ou relations à un jeu de données auxiliaire: Aucun
-
 Est-ce que les données dérivent d'une autre source? Non
-Si oui, lister les sources:
 
 
 ARBORESCENCE DES RÉPERTOIRES
 
-Liste des fichiers/Répertoires :
+Légende : <nom> = répertoire    nom* = fichier
 
-* = Fichiers sinon c'est un <répertoire>
+<CQ_Donees_utilisateurs>                        Données des utilisateurs CQ depuis 2019
+├── <CQ_Donnees_Utilisateurs_2019>              Utilisateurs CQ de l'année 2019
+├── <CQ_Donnees_Utilisateurs_2020>              Utilisateurs CQ de l'année 2020
+│   ├── <CQ_Donnes_Analysees_2020>              Fichiers de données 2020 qui ont subi une analyse
+│   │   ├── CQ_Données-Analysees_2020_CB_V01*
+│   │   ├── CQ_Données-Analysees_2020_CB_V02*
+│   │   ├── CQ_Données-Analysees_2020_CB_V03*
+│   │   ├── CQ_Données-Analysees_2020_CB_V04*   (1) = CQ_Données-Finales_2020_CB_FINAL
+│   │   ├── CQ_Données-Analysees_2020_MB_V01*   (2) = CQ_Données-Finales_2020_MB_FINAL
+│   │   ├── CQ_Données-Analysees_2020_ST_V01*
+│   │   └── CQ_Données-Analysees_2020_ST_V02*   (3) = CQ_Données-Finales_2020_ST_FINAL
+│   ├── <CQ_Donnes-Brutes_2020>                 Fichiers de données 2020 originaux
+│   │   └── CQ_Données-Brutes_2020*
+│   └── <CQ_Donnes-Finales_2020>                Fichiers de données 2020 analysés et finaux
+│       ├── CQ_Données-Finales_2020_CB_FINAL*   (1)
+│       ├── CQ_Données-Finales_2020_MB_FINAL*   (2)
+│       └── CQ_Données-Finales_2020_ST_FINAL*   (3)
+├── <CQ_Donnees_Utilisateurs_2021>              Utilisateurs CQ de l'année 2021
+├── <CQ_Donnees_Utilisateurs_2022>              Utilisateurs CQ de l'année 2022
+└── <CQ_Donnees_Utilisateurs_2023>              Utilisateurs CQ de l'année 2023
 
-<CQ_Donees_utilisateurs>: Ce répertoire contient les données des utilisateurs CQ depuis 2019
-
- 	-><CQ_Donnees_Utilisateurs_2019> : utilisateurs CQ de l'année 2019
-
- 	-><CQ_Donnees_Utilisateurs_2020> : utilisateurs CQ de l'année 2020
-
- 		-><CQ_Donnes_Analysees_2020> :Fichiers de données 2020 qui ont subit une analyse
- 			->CQ_Données-Analysees_2020_CB_V01*
- 			->CQ_Données-Analysees_2020_CB_V02*
- 			->CQ_Données-Analysees_2020_CB_V03*
- 			->CQ_Données-Analysees_2020_CB_V04*
- 			->CQ_Données-Analysees_2020_MB_V01*
- 			->CQ_Données-Analysees_2020_ST_V01*
- 			->CQ_Données-Analysees_2020_ST_V02*
-
- 		-><CQ_Donnes-Brutes_2020> : Fichiers de données 2020 originaux
- 			->CQ_Données-Brutes_2020*
-
- 		-><CQ_Donnes-Finales_2020> : Fichiers de données 2020 qui ont subit une analyse et qui sont finaux
- 			->CQ_Données-Finales_2020_CB_FINAL*
- 			->CQ_Données-Finales_2020_MB_FINAL*
- 			->CQ_Données-Finales_2020_ST_FINAL*
-
- 	-><CQ_Donnees_Utilisateurs_2021>: utilisateurs CQ de l'année 2021
- 	-><CQ_Donnees_Utilisateurs_2022> : utilisateurs CQ de l'année 2022
- 	-><CQ_Donnees_Utilisateurs_2023> : utilisateurs CQ de l'année 2023
-
-Relation entre les fichiers, si importante :
-CQ_Données-Analysees_2020_CB_V04 = CQ_Données-Finales_2020_CB_FINAL
-CQ_Données-Analysees_2020_MB_V01 = CQ_Données-Finales_2020_MB_FINAL
-CQ_Données-Analysees_2020_ST_V02 = CQ_Données-Finales_2020_ST_FINAL
-
-
-Données supplémentaires collectées qui n'ont pas été incluses dans le jeu de données actuel : Aucune
+Relations entre les fichiers :
+(1) CQ_Données-Analysees_2020_CB_V04 = CQ_Données-Finales_2020_CB_FINAL
+(2) CQ_Données-Analysees_2020_MB_V01 = CQ_Données-Finales_2020_MB_FINAL
+(3) CQ_Données-Analysees_2020_ST_V02 = CQ_Données-Finales_2020_ST_FINAL
 
 
 INFORMATIONS MÉTHODOLOGIQUES
