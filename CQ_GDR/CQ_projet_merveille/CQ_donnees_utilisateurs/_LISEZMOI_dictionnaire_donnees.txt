@@ -1,12 +1,12 @@
-Le fichier README_DictionnaireDonnees a été généré 2019-01-01 par Unepersonne Importante
+Le fichier README_DictionnaireDonnees a été généré le 2019-01-01 par Unepersonne Importante
 
 DICTIONNAIRE DE DONNÉES 
 
-INFORMATION SPÉCIFIQUES POUR: CQ_Donees_utilisateurs et ses répertoires/Fichiers
+INFORMATIONS SPÉCIFIQUES POUR : CQ_donnees_utilisateurs et ses répertoires/Fichiers
 
 Nombre de colonnes: 11
 
-Nombre de lignes :3839
+Nombre de lignes : 3839
 Les lignes correspondent à des utilisateurs
 
 Nom des colonnes et descriptions:

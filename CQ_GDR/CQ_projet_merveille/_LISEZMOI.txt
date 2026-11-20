@@ -1,4 +1,4 @@
-Ce fichier README a été généré 2019-01-01 par Unepersonne Importante
+Ce fichier LISEZMOI a été généré le 2019-01-01 par Unepersonne Importante
 
 INFORMATIONS GÉNÉRALES
 
@@ -6,72 +6,84 @@ Titre du jeu de données: Les statistiques des utilisateurs de Calcul Québec au
 
 Auteure
 Nom: Unepersonne Importante
-ORCID:0000-0002-2226-0000
+ORCID: 0000-0002-2226-0000
 Institution: Calcul Québec
-Address:
 Email: unepersonne.importante@calculquebec.ca
 
-Date de la collecte de données:  2019-01-01 - 2023-01-01
+Date de la collecte de données : 2019-01-01 au 2023-12-31
 
 Position géographique de la collecte de données: Montréal, Québec, Canada
 
-Source de financement: Fond Canadien de l'Innovation, Fond de Recherche du Québec et Alliance de Recherche Numérique du Canada.
+Source de financement : Fondation canadienne pour l'innovation, Fonds de recherche du Québec et Alliance de recherche numérique du Canada.
 
 
 PARTAGE ET ACCÈS À L'INFORMATION
 
-Licenses/restrictions placées sur les données:
+Licences/restrictions placées sur les données : Aucune
 
-Liens aux publications qui citent ou utilisent ces données: Aucun
+Liens vers des publications qui citent ou utilisent ces données : Aucun
 
-Liens aux à d'autres endroits publics où je peux trouver les données: Aucun
+Liens vers d'autres endroits publics où trouver les données : Aucun
 
 Liens ou relations à un jeu de données auxiliaire: Aucun
-
 Est-ce que les données dérivent d'une autre source? Non
-Si oui, lister les sources:
 
 
 ARBORESCENCE DES RÉPERTOIRES
 
-Liste des fichiers/Répertoires :
+Légende : <nom> = répertoire    nom* = fichier
 
-* = Fichiers sinon c'est un <répertoire>
+<CQ_donnees_utilisateurs>                       Données des utilisateurs CQ depuis 2019
+├── <CQ_donnees_utilisateurs_2019>              Utilisateurs CQ de l'année 2019
+│   ├── <CQ_Donnees-Analysees_2019>             Fichiers de données 2019 qui ont subi une analyse
+│   │   └── CQ_Donnees-Analysees_2019_CB_V01.csv*
+│   ├── <CQ_Donnees-Brutes_2019>                Fichiers de données 2019 originaux
+│   │   └── CQ_Donnees-Brutes_2019.csv*
+│   └── <CQ_Donnees-Finales_2019>               Fichiers de données 2019 analysés et finaux
+│       └── CQ_Donnees-Finales_2019_CB_FINAL.csv*
+├── <CQ_donnees_utilisateurs_2020>              Utilisateurs CQ de l'année 2020
+│   ├── <CQ_Donnees-Analysees_2020>             Fichiers de données 2020 qui ont subi une analyse
+│   │   ├── CQ_Donnees-Analysees_2020_CB_V01.csv*
+│   │   ├── CQ_Donnees-Analysees_2020_CB_V02.csv*
+│   │   ├── CQ_Donnees-Analysees_2020_CB_V03.csv*
+│   │   ├── CQ_Donnees-Analysees_2020_CB_V04.csv*   (1)
+│   │   ├── CQ_Donnees-Analysees_2020_MB_V01.csv*   (2)
+│   │   ├── CQ_Donnees-Analysees_2020_ST_V01.csv*
+│   │   └── CQ_Donnees-Analysees_2020_ST_V02.csv*   (3)
+│   ├── <CQ_Donnees-Brutes_2020>                Fichiers de données 2020 originaux
+│   │   └── CQ_Donnees-Brutes_2020.csv*
+│   └── <CQ_Donnees-Finales_2020>               Fichiers de données 2020 analysés et finaux
+│       ├── CQ_Donnees-Finales_2020_CB_FINAL.csv*   (1)
+│       ├── CQ_Donnees-Finales_2020_MB_FINAL.csv*   (2)
+│       └── CQ_Donnees-Finales_2020_ST_FINAL.csv*   (3)
+├── <CQ_donnees_utilisateurs_2021>              Utilisateurs CQ de l'année 2021
+│   ├── <CQ_Donnees-Analysees_2021>             Fichiers de données 2021 qui ont subi une analyse
+│   │   └── CQ_Donnees-Analysees_2021_CB_V01.csv*
+│   ├── <CQ_Donnees-Brutes_2021>                Fichiers de données 2021 originaux
+│   │   └── CQ_Donnees-Brutes_2021.csv*
+│   └── <CQ_Donnees-Finales_2021>               Fichiers de données 2021 analysés et finaux
+│       └── CQ_Donnees-Finales_2021_CB_FINAL.csv*
+├── <CQ_donnees_utilisateurs_2022>              Utilisateurs CQ de l'année 2022
+│   ├── <CQ_Donnees-Analysees_2022>             Fichiers de données 2022 qui ont subi une analyse
+│   │   └── CQ_Donnees-Analysees_2022_CB_V01.csv*
+│   ├── <CQ_Donnees-Brutes_2022>                Fichiers de données 2022 originaux
+│   │   └── CQ_Donnees-Brutes_2022.csv*
+│   └── <CQ_Donnees-Finales_2022>               Fichiers de données 2022 analysés et finaux
+│       └── CQ_Donnees-Finales_2022_CB_FINAL.csv*
+├── <CQ_donnees_utilisateurs_2023>              Utilisateurs CQ de l'année 2023
+│   ├── <CQ_Donnees-Analysees_2023>             Fichiers de données 2023 qui ont subi une analyse
+│   │   └── CQ_Donnees-Analysees_2023_CB_V01.csv*
+│   ├── <CQ_Donnees-Brutes_2023>                Fichiers de données 2023 originaux
+│   │   └── CQ_Donnees-Brutes_2023.csv*
+│   └── <CQ_Donnees-Finales_2023>               Fichiers de données 2023 analysés et finaux
+│       └── CQ_Donnees-Finales_2023_CB_FINAL.csv*
+├── _LISEZMOI_convention_nommage.txt*           Convention de nommage des fichiers
+└── _LISEZMOI_dictionnaire_donnees.txt*         Dictionnaire des données
 
-<CQ_Donees_utilisateurs>: Ce répertoire contient les données des utilisateurs CQ depuis 2019
-
- 	-><CQ_Donnees_Utilisateurs_2019> : utilisateurs CQ de l'année 2019
-
- 	-><CQ_Donnees_Utilisateurs_2020> : utilisateurs CQ de l'année 2020
-
- 		-><CQ_Donnes_Analysees_2020> :Fichiers de données 2020 qui ont subit une analyse
- 			->CQ_Données-Analysees_2020_CB_V01*
- 			->CQ_Données-Analysees_2020_CB_V02*
- 			->CQ_Données-Analysees_2020_CB_V03*
- 			->CQ_Données-Analysees_2020_CB_V04*
- 			->CQ_Données-Analysees_2020_MB_V01*
- 			->CQ_Données-Analysees_2020_ST_V01*
- 			->CQ_Données-Analysees_2020_ST_V02*
-
- 		-><CQ_Donnes-Brutes_2020> : Fichiers de données 2020 originaux
- 			->CQ_Données-Brutes_2020*
-
- 		-><CQ_Donnes-Finales_2020> : Fichiers de données 2020 qui ont subit une analyse et qui sont finaux
- 			->CQ_Données-Finales_2020_CB_FINAL*
- 			->CQ_Données-Finales_2020_MB_FINAL*
- 			->CQ_Données-Finales_2020_ST_FINAL*
-
- 	-><CQ_Donnees_Utilisateurs_2021>: utilisateurs CQ de l'année 2021
- 	-><CQ_Donnees_Utilisateurs_2022> : utilisateurs CQ de l'année 2022
- 	-><CQ_Donnees_Utilisateurs_2023> : utilisateurs CQ de l'année 2023
-
-Relation entre les fichiers, si importante :
-CQ_Données-Analysees_2020_CB_V04 = CQ_Données-Finales_2020_CB_FINAL
-CQ_Données-Analysees_2020_MB_V01 = CQ_Données-Finales_2020_MB_FINAL
-CQ_Données-Analysees_2020_ST_V02 = CQ_Données-Finales_2020_ST_FINAL
-
-
-Données supplémentaires collectées qui n'ont pas été incluses dans le jeu de données actuel : Aucune
+Relations entre les fichiers :
+(1) CQ_Donnees-Analysees_2020_CB_V04 = CQ_Donnees-Finales_2020_CB_FINAL
+(2) CQ_Donnees-Analysees_2020_MB_V01 = CQ_Donnees-Finales_2020_MB_FINAL
+(3) CQ_Donnees-Analysees_2020_ST_V02 = CQ_Donnees-Finales_2020_ST_FINAL
 
 
 INFORMATIONS MÉTHODOLOGIQUES
