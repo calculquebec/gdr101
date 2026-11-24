@@ -6,7 +6,7 @@ Contenu de l'atelier ***Gestion des données de recherche \[GDR101]*** du 25 nov
 
 
 
-#### **Diapositives:** https://docs.google.com/presentation/d/18Erja3fwy4VSWTiRDkDBTsKnYwKPh6CfJhlaqMsRGGE/edit?usp=sharing
+#### **Diapositives:** https://docs.google.com/presentation/d/1YY0xl9RPStVYHaeP_qL83rK0jp4_5TC8QGeUtfhmS5A/edit?usp=sharing
 
 
 
